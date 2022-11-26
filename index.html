@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='/styles.css'>
-</head>
-<body>
-  <script src='main.js'></script>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Page Title</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="./styles/styles.css"
+		/>
+	</head>
+	<body>
+		<main class="ct-main">
+			<h1>Web App - Clima do Tempo</h1>
+
+			<section class="ct-input">
+				<input
+					type="text"
+					id="input-city"
+					placeholder="Digite sua Cidade"
+				/>
+				<button id="btn-search">Pesquisar</button>
+			</section>
+
+			<section class="ct-card">
+				<h2 id="city-value">Cidade</h2>
+				<p><span id="temp-value">9</span> °C</p>
+
+				<div class="box-icon">
+					<img src="" alt="icon weather" id="img-value" />
+					<p id="weather-value">Ensolarado</p>
+				</div>
+			</section>
+		</main>
+
+		<script src="main.js"></script>
+	</body>
 </html>

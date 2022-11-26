@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ct-main {
+  background-color: #091f43;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ct-main h1 {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
+.ct-main .ct-input {
+  margin-top: 25px;
+}
+.ct-main .ct-input input {
+  padding: 6px;
+  border: none;
+  outline: none;
+  width: 50vw;
+  font-size: 16px;
+}
+.ct-main .ct-input input::-moz-placeholder {
+  font-size: 16px;
+}
+.ct-main .ct-input input:-ms-input-placeholder {
+  font-size: 16px;
+}
+.ct-main .ct-input input::placeholder {
+  font-size: 16px;
+}
+.ct-main .ct-input button {
+  padding: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 4px;
+  background-color: #ff1e42;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.ct-main .ct-input button:hover {
+  background-color: #d10f2f;
+}
+.ct-main .ct-card {
+  width: 400px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 4px rgba(128, 128, 128, 0.629);
+}
+.ct-main .ct-card h2 {
+  font-weight: 400;
+  color: #53627C;
+}
+.ct-main .ct-card > p {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.ct-main .ct-card .box-icon {
+  margin-top: 10px;
+}
+.ct-main .ct-card .box-icon > p {
+  margin-top: 5px;
+  color: #53627C;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
