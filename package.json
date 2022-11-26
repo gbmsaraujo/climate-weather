@@ -1,0 +1,20 @@
+{
+  "name": "weather-trajetoria-dev",
+  "version": "1.0.0",
+  "description": "Projeto para praticar HTML, Sass, Javascript e consumo de APIs.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbmsaraujo/climate-weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbmsaraujo/climate-weather/issues"
+  },
+  "homepage": "https://github.com/gbmsaraujo/climate-weather#readme"
+}
